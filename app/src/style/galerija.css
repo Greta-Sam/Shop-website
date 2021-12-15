@@ -1,0 +1,95 @@
+.galerija {
+    margin: 0 auto;
+    max-width: 1480px;
+    padding: 0 10px 50px 10px;
+}
+.galerija-map {
+    padding: 10px 0;
+}
+.galerija-map a {
+    text-decoration: none;
+    color: #000;
+}
+.galerija-map a:hover {
+    color: goldenrod;
+}
+hr {
+    margin: 0;
+}
+.galerija-link {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 100px 50px 100px;
+    gap: 50px
+}
+.galerija-link-interjeras, .galerija-link-papuosalai {
+    flex: 50%;
+}
+.galerija-link img{
+    width: 100%;
+    opacity: 0.6;
+}
+.galerija-link a {
+    width: 300px;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 200;
+    font-size: 34px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+.galerija-link a:hover {
+    color: goldenrod;
+    background-color: #fff;
+}
+.galerija-link-papuosalai {
+    position: relative;
+    width: 100%;
+}
+.galerija-link-papuosalai img {
+    width: 100%;
+    height: auto;
+}
+.galerija-link-papuosalai a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+}
+.galerija-link-interjeras {
+position: relative;
+    width: 100%;
+}
+.galerija-link-interjeras img {
+    width: 100%;
+    height: auto;
+}
+.galerija-link-interjeras a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+}
+
+
+@media screen and (max-width:767px) {
+    .galerija-link {
+        flex-direction: column;
+    }
+    .galerija-link a {
+        font-size: 22px;
+        width: 200px;
+    }
+
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .galerija-link a {
+        font-size: 22px;
+        width: 200px;
+    }
+}

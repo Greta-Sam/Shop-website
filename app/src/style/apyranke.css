@@ -1,0 +1,70 @@
+.bracelet {
+    margin: 0 auto;
+    max-width: 1480px;
+    padding: 0 10px 50px 10px;
+}
+.bracelet-map {
+    padding: 10px 0;
+}
+.bracelet-map a {
+    text-decoration: none;
+    color: #000;
+}
+.bracelet-map a:hover {
+    color: goldenrod;
+}
+hr {
+    margin: 0;
+}
+.bracelet-container {
+    display: flex;
+    padding: 0 50px 20px;
+}
+.bracelet-container-gallery {
+flex: 50%;
+display: flex;
+padding: 0 20px;
+justify-content: center;
+}
+.bracelet-conteiner-informacion {
+    flex: 50%;
+    padding: 50px 50px 0 0;
+}
+#thumbnail-div {
+    display: block;
+}
+.bracelet-conteiner-informacion p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+@media screen and (max-width:767px) {
+    .bracelet-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .thumbnails img {
+        width: 80px;
+    }
+    .bracelet-conteiner-informacion {
+        padding: 25px 0 0 0;
+    }
+    .bracelet-conteiner-informacion p {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .bracelet-conteiner-informacion {
+        flex: 30%;
+    }
+    .thumbnails img {
+        width: 80px;
+    }
+    .bracelet-conteiner-informacion {
+        padding: 10px 0 0 0;
+    }
+    .bracelet-conteiner-informacion p {
+        font-size: 17px;
+    }
+}

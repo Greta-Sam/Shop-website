@@ -1,0 +1,109 @@
+.papuosalai {
+    margin: 0 auto;
+    max-width: 1480px;
+    padding: 0 10px 50px 10px;
+}
+.papuosalai-map {
+    padding: 10px 0;
+}
+.papuosalai-map a {
+    text-decoration: none;
+    color: #000;
+}
+.papuosalai-map a:hover {
+    color: goldenrod;
+}
+hr {
+    margin: 0;
+}
+.papuosalai h2 {
+    text-align: center;
+    font-size: 34px;
+}
+.papuosalai-link {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px 50px 50px;
+    gap: 50px
+}
+.papuosalai-link-apyrankes, .papuosalai-link-pakabukai, .papuosalai-link-rinkiniai {
+    flex: 30%;
+}
+.papuosalai-link img{
+    width: 100%;
+    opacity: 0.6;
+}
+.papuosalai-link a {
+    width: 200px;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 200;
+    font-size: 34px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+.papuosalai-link a:hover {
+    color: goldenrod;
+    background-color: #fff;
+}
+.papuosalai-link-apyrankes {
+    position: relative;
+    width: 100%;
+}
+.papuosalai-link-apyrankes img {
+    width: 100%;
+    height: auto;
+}
+.papuosalai-link-apyrankes a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+}
+.papuosalai-link-pakabukai {
+position: relative;
+    width: 100%;
+}
+.papuosalai-link-pakabukai img {
+    width: 100%;
+    height: auto;
+}
+.papuosalai-link-pakabukai a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+}
+.papuosalai-link-rinkiniai {
+    position: relative;
+        width: 100%;
+    }
+.papuosalai-link-rinkiniai img {
+        width: 100%;
+        height: auto;
+    }
+.papuosalai-link-rinkiniai a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        border: 3px solid #fff;
+    }
+
+@media screen and (max-width:767px) {
+    .papuosalai-link {
+    flex-direction: column;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .papuosalai-link a {
+        width: 150px;
+        font-size: 25px;
+    }
+}

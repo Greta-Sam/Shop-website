@@ -1,0 +1,76 @@
+.necklaces {
+    margin: 0 auto;
+    max-width: 1480px;
+    padding: 0 10px 50px 10px;
+}
+.necklaces-map {
+    padding: 10px 0;
+}
+.necklaces-map a {
+    text-decoration: none;
+    color: #000;
+}
+.necklaces-map a:hover {
+    color: goldenrod;
+}
+hr {
+    margin: 0;
+}
+.necklaces h2 {
+    text-align: center;
+    font-size: 34px;
+}
+.necklaces-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 40px;
+    gap: 10px;
+}
+.necklaces-items-block-information img {
+    width: 100%;
+}
+.necklaces-items-block {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    color: #000;
+    opacity: 0.8;
+}
+.necklaces-items-block a {
+    text-decoration: none;
+    color: #000;
+}
+.necklaces-items-block:hover {
+    opacity: 1;
+}
+.necklaces-items-block-information-price {
+    margin: 0;
+    padding-left: 10px;
+
+}
+.necklaces-items-block-information-title {
+    margin: 0;
+    font-weight: 550;
+    padding-left: 10px;
+
+}
+@media screen and (max-width:767px) {
+    .necklaces-items {
+        grid-template-columns: 1fr 1fr;
+    }
+    .necklaces-items-block {
+        font-size: 20px;
+    
+    }
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+.necklaces-items-block {
+    font-size: 20px;
+}
+.necklaces-items {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
