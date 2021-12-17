@@ -19,22 +19,22 @@ const getData = async (API) => {
     setIsLoading(false)
 }
     return (
-        <div className="interjeras">
-            <div className="interjeras-map">
+        <div className="interior">
+            <div className="interior-map">
                 <Link to="/">WHITE FOREST</Link> / <Link to="/interjerodetales">Interjero Detalės</Link>
             </div>
             <hr />
             <h2>Interjero Detalės</h2>
             <hr />
-            <div className="interjeras-items">
+            <div className="interior-items">
                 {isLoading ? (<p>Loading...</p>) : (
                     trees.map((tree) => (
-                        <div className="interjeras-items-block" key={tree.id}>
+                        <div className="interior-items-block" key={tree.id}>
                            <Link to={`/interjerodetales/${tree.id}`}>
-                               <div className="interjeras-items-block-information">
+                               <div className="interior-items-block-information">
                                    <img src={tree.image1} alt="medis" width={200}/>
-                                   <p className="interjeras-items-block-information-title">"{tree.title}"</p>
-                                   <p className="interjeras-items-block-information-price">{tree.price}</p>
+                                   <p className="interior-items-block-information-title">"{tree.title}"</p>
+                                   <p className="interior-items-block-information-price">{tree.price}</p>
                                </div>
                            </Link>
                        </div>

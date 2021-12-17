@@ -20,22 +20,22 @@ const getData = async (API) => {
     setIsLoading(false)
 }
     return (
-        <div className="apyrankes">
-            <div className="apyrankes-map">
+        <div className="bracelets">
+            <div className="bracelets-map">
                 <Link to="/">WHITE FOREST</Link> / <Link to="/papuosalai">Papuošalai</Link> / <Link to="/papuosalai/apyrankes">Apyrankės</Link>
             </div>
             <hr />
             <h2>Apyrankės</h2>
             <hr />
-            <div className="apyrankes-items">
+            <div className="bracelets-items">
                 {isLoading ? (<p>Loading...</p>) : (
                     bracelets.map((bracelet) => (
-                        <div className="apyrankes-items-block" key={bracelet.id}>
+                        <div className="bracelets-items-block" key={bracelet.id}>
                            <Link to={`/papuosalai/apyrankes/${bracelet.id}`}>
-                               <div className="apyrankes-items-block-information">
+                               <div className="bracelets-items-block-information">
                                    <img src={bracelet.image1} alt="medis" width={200}/>
-                                   <p className="apyrankes-items-block-information-title">"{bracelet.title}"</p>
-                                   <p className="apyrankes-items-block-information-price">{bracelet.price}</p>
+                                   <p className="bracelets-items-block-information-title">"{bracelet.title}"</p>
+                                   <p className="bracelets-items-block-information-price">{bracelet.price}</p>
                                </div>
                            </Link>
                        </div>

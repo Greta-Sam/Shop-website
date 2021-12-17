@@ -1,47 +1,47 @@
-.kontaktai {
+.contacts {
     margin: 0 auto;
     max-width: 1480px;
     padding: 0 10px 50px 10px;
 }
-.kontaktai-map {
+.contacts-map {
     padding: 10px 0;
 }
-.kontaktai-map a {
+.contacts-map a {
     text-decoration: none;
     color: #000;
 }
-.kontaktai-map a:hover {
+.contacts-map a:hover {
     color: goldenrod;
 }
 hr {
     margin: 0;
 }
-.kontaktai h1 {
+.contacts h1 {
     text-align: center;
     font-size: 34px;
     margin: 28px;
 }
-.kontaktai-info {
+.contacts-info {
     text-align: center;
 }
-.kontaktai-info-title {
+.contacts-info-title {
     padding: 20px 0;
 }
-.kontaktai-info-context {
+.contacts-info-context {
     padding-bottom: 20px;
 }
 /* FORM */
-.kontaktai-info-form {
+.contacts-info-form {
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 20px;
 }
-.kontaktai-info-form label {
+.contacts-info-form label {
     text-align: left;
     display: block;
 }
-.kontaktai-info-form input, .kontaktai-info-form textarea {
+.contacts-info-form input, .contacts-info-form textarea {
     width: 100%;
     padding: 6px 10px;
     margin: 10px 0;
@@ -49,7 +49,7 @@ hr {
     box-sizing: border-box;
     display: block;
 }
-.kontaktai-info-form button {
+.contacts-info-form button {
     font-size: 16px;
     background-color: gray;
     border: none;
@@ -59,9 +59,9 @@ hr {
     font-weight: 500;
     margin-bottom: 10px;
 }
-.kontaktai-info-form button:hover {
+.contacts-info-form button:hover {
     color: goldenrod;
 }
-.kontaktai-info-form p {
+.contacts-info-form p {
     font-size: 20px;
 }

@@ -1,35 +1,35 @@
-.apyrankes {
+.bracelets {
     margin: 0 auto;
     max-width: 1480px;
     padding: 0 10px 50px 10px;
 }
-.apyrankes-map {
+.bracelets-map {
     padding: 10px 0;
 }
-.apyrankes-map a {
+.bracelets-map a {
     text-decoration: none;
     color: #000;
 }
-.apyrankes-map a:hover {
+.bracelets-map a:hover {
     color: goldenrod;
 }
 hr {
     margin: 0;
 }
-.apyrankes h2 {
+.bracelets h2 {
     text-align: center;
     font-size: 34px;
 }
-.apyrankes-items {
+.bracelets-items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 20px 40px;
     gap: 10px;
 }
-.apyrankes-items-block-information img {
+.bracelets-items-block-information img {
     width: 100%;
 }
-.apyrankes-items-block {
+.bracelets-items-block {
     padding: 20px;
     text-align: left;
     display: flex;
@@ -39,38 +39,38 @@ hr {
     color: #000;
     opacity: 0.8;
 }
-.apyrankes-items-block a {
+.bracelets-items-block a {
     text-decoration: none;
     color: #000;
 }
-.apyrankes-items-block:hover {
+.bracelets-items-block:hover {
     opacity: 1;
 }
-.apyrankes-items-block-information-price {
+.bracelets-items-block-information-price {
     margin: 0;
     padding-left: 10px;
 
 }
-.apyrankes-items-block-information-title {
+.bracelets-items-block-information-title {
     margin: 0;
     font-weight: 550;
     padding-left: 10px;
 
 }
 @media screen and (max-width:767px) {
-    .apyrankes-items {
+    .bracelets-items {
         grid-template-columns: 1fr 1fr;
     }
-    .apyrankes-items-block {
+    .bracelets-items-block {
         font-size: 20px;
     
     }
 }
 @media screen and (min-width:767px) and (max-width:1023px) {
-.apyrankes-items-block {
+.bracelets-items-block {
     font-size: 20px;
 }
-.apyrankes-items {
+.bracelets-items {
     grid-template-columns: 1fr 1fr 1fr;
 }
 }

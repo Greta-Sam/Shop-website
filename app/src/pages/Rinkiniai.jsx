@@ -20,22 +20,22 @@ const getData = async (API) => {
 }
 
     return (
-        <div className="rinkiniai">
-            <div className="rinkiniai-map">
+        <div className="sets">
+            <div className="sets-map">
                 <Link to="/">WHITE FOREST</Link> / <Link to="/papuosalai">Papuošalai</Link> / <Link to="/papuosalai/rinkiniai">Rinkiniai</Link>
             </div>
             <hr />
             <h2>Rinkiniai</h2>
             <hr />
-            <div className="rinkiniai-items">
+            <div className="sets-items">
                 {isLoading ? (<p>Loading...</p>) : (
                     sets.map((set) => (
-                        <div className="rinkiniai-items-block" key={set.id}>
+                        <div className="sets-items-block" key={set.id}>
                            <Link to={`/papuosalai/rinkiniai/${set.id}`}>
-                               <div className="rinkiniai-items-block-information">
+                               <div className="sets-items-block-information">
                                    <img src={set.image1} alt="medis" width={200}/>
-                                   <p className="rinkiniai-items-block-information-title">"{set.title}"</p>
-                                   <p className="rinkiniai-items-block-information-price">{set.price}</p>
+                                   <p className="sets-items-block-information-title">"{set.title}"</p>
+                                   <p className="sets-items-block-information-price">{set.price}</p>
                                </div>
                            </Link>
                        </div>

@@ -1,35 +1,35 @@
-.rinkiniai {
+.sets {
     margin: 0 auto;
     max-width: 1480px;
     padding: 0 10px 50px 10px;
 }
-.rinkiniai-map {
+.sets-map {
     padding: 10px 0;
 }
-.rinkiniai-map a {
+.sets-map a {
     text-decoration: none;
     color: #000;
 }
-.rinkiniai-map a:hover {
+.sets-map a:hover {
     color: goldenrod;
 }
 hr {
     margin: 0;
 }
-.rinkiniai h2 {
+.sets h2 {
     text-align: center;
     font-size: 34px;
 }
-.rinkiniai-items {
+.sets-items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 20px 40px;
     gap: 10px;
 }
-.rinkiniai-items-block-information img {
+.sets-items-block-information img {
     width: 100%;
 }
-.rinkiniai-items-block {
+.sets-items-block {
     padding: 20px;
     text-align: left;
     display: flex;
@@ -39,38 +39,38 @@ hr {
     color: #000;
     opacity: 0.8;
 }
-.rinkiniai-items-block a {
+.sets-items-block a {
     text-decoration: none;
     color: #000;
 }
-.rinkiniai-items-block:hover {
+.sets-items-block:hover {
     opacity: 1;
 }
-.rinkiniai-items-block-information-price {
+.sets-items-block-information-price {
     margin: 0;
     padding-left: 10px;
 
 }
-.rinkiniai-items-block-information-title {
+.sets-items-block-information-title {
     margin: 0;
     font-weight: 550;
     padding-left: 10px;
 
 }
 @media screen and (max-width:767px) {
-    .rinkiniai-items {
+    .sets-items {
         grid-template-columns: 1fr 1fr;
     }
-    .rinkiniai-items-block {
+    .sets-items-block {
         font-size: 20px;
     
     }
 }
 @media screen and (min-width:767px) and (max-width:1023px) {
-.rinkiniai-items-block {
+.sets-items-block {
     font-size: 20px;
 }
-.rinkiniai-items {
+.sets-items {
     grid-template-columns: 1fr 1fr 1fr;
 }
 }

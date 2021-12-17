@@ -4,23 +4,23 @@ import "../style/papuosalai.css"
 
 const Papuosalai = () => {
     return (
-        <div className="papuosalai">
-            <div className="papuosalai-map">
+        <div className="jewelry">
+            <div className="jewelry-map">
                 <Link to="/">WHITE FOREST</Link> / <Link to="/papuosalai">Papuošalai</Link>
             </div>
             <hr />
             <h2>Papuošalai</h2>
             <hr />
-            <div className="papuosalai-link">
-                <div className="papuosalai-link-apyrankes" >
+            <div className="jewelry-link">
+                <div className="jewelry-link-bracelets" >
                     <img src="/images/sets/rinkinys4-2.jpg" alt="pakabutis3"/>
                     <Link to="/papuosalai/apyrankes">Apyrankės</Link>
                 </div>
-                <div className="papuosalai-link-pakabukai">
+                <div className="jewelry-link-necklaces">
                 <img src="/images/necklaces/pakabutis6-2.jpg" alt="medis14" />
                     <Link to="/papuosalai/pakabukai">Pakabukai</Link>
                 </div>
-                <div className="papuosalai-link-rinkiniai">
+                <div className="jewelry-link-sets">
                 <img src="/images/sets/rinkinys2-3.jpg" alt="medis14" />
                     <Link to="/papuosalai/rinkiniai">Rinkiniai</Link>
                 </div>

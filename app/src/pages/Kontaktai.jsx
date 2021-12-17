@@ -12,22 +12,22 @@ const handleSubmit = (e) => {
 }
 
     return (
-        <div  className="kontaktai">
-            <div className="kontaktai-map">
+        <div  className="contacts">
+            <div className="contacts-map">
             <Link to="/">WHITE FOREST</Link> / <Link to="/kontaktai">Kontaktai</Link>
             </div>
             <hr />
             <h1>Kontaktai</h1>
             <hr />
-            <div className="kontaktai-info">
-                <div className="kontaktai-info-title">
+            <div className="contacts-info">
+                <div className="contacts-info-title">
                     <h2>WHITE FOREST</h2>
                 </div>
-                <div className="kontaktai-info-context">
+                <div className="contacts-info-context">
                     <p>Jeigu turite kokių nors klausimų arba jus domina kažkuris darbas, galite susisiekti paštu arba užpildykite žemiau pateiktą formą.</p>
                     <p>Paštas: greta.samsanaviciene@gmail.com</p>
                 </div>
-                <div  className="kontaktai-info-form">
+                <div  className="contacts-info-form">
                     <form onSubmit={handleSubmit}>
                         <label>Vardas*</label>
                         <input 

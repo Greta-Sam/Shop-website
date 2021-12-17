@@ -1,42 +1,42 @@
-.galerija {
+.gallery {
     margin: 0 auto;
     max-width: 1480px;
     padding: 0 10px 50px 10px;
 }
-.galerija-map {
+.gallery-map {
     padding: 10px 0;
 }
-.galerija-map a {
+.gallery-map a {
     text-decoration: none;
     color: #000;
 }
-.galerija-map a:hover {
+.gallery-map a:hover {
     color: goldenrod;
 }
 hr {
     margin: 0;
 }
-.galerija-row {
+.gallery-row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px 20px 4px;
 }
-.galerija-column {
+.gallery-column {
     flex: 20%;
     padding: 0 4px;
     float: left;
 }
-.galerija-column img {
+.gallery-column img {
 margin-top: 8px;
 vertical-align: middle;
 width: 100%;
 opacity: 0.8;
 }
-.galerija-column img:hover {
+.gallery-column img:hover {
     opacity: 1;
 }
 @media screen and (max-width:767px) {
-    .galerija-column {
+    .gallery-column {
         flex: 40%;
     }
 }

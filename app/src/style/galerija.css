@@ -1,35 +1,35 @@
-.galerija {
+.gallery {
     margin: 0 auto;
     max-width: 1480px;
     padding: 0 10px 50px 10px;
 }
-.galerija-map {
+.gallery-map {
     padding: 10px 0;
 }
-.galerija-map a {
+.gallery-map a {
     text-decoration: none;
     color: #000;
 }
-.galerija-map a:hover {
+.gallery-map a:hover {
     color: goldenrod;
 }
 hr {
     margin: 0;
 }
-.galerija-link {
+.gallery-link {
     display: flex;
     flex-direction: row;
     padding: 50px 100px 50px 100px;
     gap: 50px
 }
-.galerija-link-interjeras, .galerija-link-papuosalai {
+.gallery-link-interior, .gallery-link-jewelry {
     flex: 50%;
 }
-.galerija-link img{
+.gallery-link img{
     width: 100%;
     opacity: 0.6;
 }
-.galerija-link a {
+.gallery-link a {
     width: 300px;
     color: #000;
     text-align: center;
@@ -39,19 +39,19 @@ hr {
     text-decoration: none;
     background-color: rgb(255, 255, 255, 0.6);
 }
-.galerija-link a:hover {
+.gallery-link a:hover {
     color: goldenrod;
     background-color: #fff;
 }
-.galerija-link-papuosalai {
+.gallery-link-jewelry {
     position: relative;
     width: 100%;
 }
-.galerija-link-papuosalai img {
+.gallery-link-jewelry img {
     width: 100%;
     height: auto;
 }
-.galerija-link-papuosalai a {
+.gallery-link-jewelry a {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -59,15 +59,15 @@ hr {
     -ms-transform: translate(-50%, -50%);
     border: 3px solid #fff;
 }
-.galerija-link-interjeras {
+.gallery-link-interior {
 position: relative;
     width: 100%;
 }
-.galerija-link-interjeras img {
+.gallery-link-interior img {
     width: 100%;
     height: auto;
 }
-.galerija-link-interjeras a {
+.gallery-link-interior a {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -78,17 +78,17 @@ position: relative;
 
 
 @media screen and (max-width:767px) {
-    .galerija-link {
+    .gallery-link {
         flex-direction: column;
     }
-    .galerija-link a {
+    .gallery-link a {
         font-size: 22px;
         width: 200px;
     }
 
 }
 @media screen and (min-width:767px) and (max-width:1023px) {
-    .galerija-link a {
+    .gallery-link a {
         font-size: 22px;
         width: 200px;
     }
